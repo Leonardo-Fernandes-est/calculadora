@@ -1,5 +1,3 @@
-# Java
-*.class
 # packages 
 *.jar
 *.war
