@@ -11,6 +11,9 @@ public class calculadora {
 		System.out.println();
 		System.out.println("1- Soma          2 - Divisão");
 		System.out.println("3 - Subtração    4 - Multiplicação");
+
+		System.out.println();
+
 		
 		
 			int operador;
