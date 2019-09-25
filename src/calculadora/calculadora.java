@@ -12,7 +12,7 @@ public class calculadora {
 		System.out.println("1- Soma          2 - Divisão");
 		System.out.println("3 - Subtração    4 - Multiplicação");
 		
-		do{
+		
 			int operador;
 			operador = entrada.nextInt();
 			//SOMAR
@@ -60,13 +60,9 @@ public class calculadora {
 				}if(operador > 4){
 					System.out.println("Digitou errado, tente novamente");
 				}
-				System.out.println("Você deseja continuar? Digite true para sim e false para não");
-				Scanner booleano = new Scanner(System.in);
-				boolean tentarDnv = booleano.hasNextBoolean();
-		}while (tentarDnv == true);
 			
-		}
-		}
+
+		}}
 	
 
 
